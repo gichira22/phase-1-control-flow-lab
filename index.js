@@ -15,15 +15,18 @@ function scuberGreetingForFeet(feet){
   }
 }
 
+// function ternaryCheckCity(city){
+//   // Write your code here!
+  
+// if(city === 'NYC'){
+//   return 'Ok, sounds good.';
+// }
+// else{
+//   return 'No go.';
+// }
+//}
 function ternaryCheckCity(city){
-  // Write your code here!
-  //let city = 'NYC'
-if(city === 'NYC'){
-  return 'Ok, sounds good.';
-}
-else{
-  return 'No go.';
-}
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
 function switchOnCharmFromTip(tip){
